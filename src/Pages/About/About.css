@@ -1,0 +1,41 @@
+.about:hover {
+    color: royalblue;
+    padding: 3rem;
+}
+
+.about-content {
+    gap: 4rem;
+}
+
+.about-title:hover {
+    color:purple;
+    margin: 1rem 0;
+}
+
+.about-img img:hover {
+    max-width: 600px;
+    transition: var(--black--color);
+    border-radius: 20%;
+    height: 500px;
+    
+}
+
+.about-text p:hover {
+    color:green;
+    margin: 1.8rem 0;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 800px) {
+    .about-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-title {
+        margin-top: auto;
+    }
+
+    .about-img img {
+        margin-left: 0;
+    }
+}
